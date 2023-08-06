@@ -55,12 +55,12 @@ We also tried plotting the top 3 PCA features in 3D.
 
 Figure 2. In three dimensions, the disease classes are somewhat more separable.
 
-Some pairs of diseases appear fully separate in 3D like Zika and Lyme Disease. \
+Some pairs of diseases appear fully separate in 3D like Zika and Lyme Disease.
 
 
 _Baseline_
 
-We established a baseline with a model that always guessed the most common class, "West_Nile_Virus." This model achieved a training accuracy of 0.12 and a Kaggle test accuracy of 0.09. Since this is a multiclass regression problem similar to Homework 3, our first approach was softmax regression. \
+We established a baseline with a model that always guessed the most common class, "West_Nile_Virus." This model achieved a training accuracy of 0.12 and a Kaggle test accuracy of 0.09. Since this is a multiclass regression problem similar to Homework 3, our first approach was softmax regression.
 
 
 **Shallow Models**
@@ -75,7 +75,7 @@ _Random Forest_
 
 We once again used 5-fold Cross-Validation for testing hyperparameters via grid search. We explored varying the criterion for splitting, maximum tree depth, the maximum number of features used, and the number of estimators. We found that trees with less features performed almost as well as trees with more features. This performed similarly to softmax with a CV score of 0.31 and a Kaggle score of 0.32.
 
-Next, we decided to try Linear Discriminant Analysis, as it incorporates dimensionality reduction and accounts for high correlation between features. This makes sense in the context of our problem, as features are not entirely independent of each other. \
+Next, we decided to try Linear Discriminant Analysis, as it incorporates dimensionality reduction and accounts for high correlation between features. This makes sense in the context of our problem, as features are not entirely independent of each other. 
 
 
 _Linear Discriminant Analysis_
@@ -166,14 +166,14 @@ To do this, we implemented grid search to try to find a more optimal set of hype
 
 **Conclusion**
 
-We found that our most effective model was the 5-layer neural network, which was significantly better than our best performing shallow model, softmax regression. It yielded Kaggle scores that were within 17% and 13% of the top public and private scores on the leaderboard. Our aggregate feature engineering based on medical knowledge of the disease symptoms did not yield considerable improvements. Additionally, our grid search did not help us tune our hyperparameters for our deep network as hoped for. In the future, we might try scraping outside sources for more data, since the lack of training data likely hampered our model. \
+We found that our most effective model was the 5-layer neural network, which was significantly better than our best performing shallow model, softmax regression. It yielded Kaggle scores that were within 17% and 13% of the top public and private scores on the leaderboard. Our aggregate feature engineering based on medical knowledge of the disease symptoms did not yield considerable improvements. Additionally, our grid search did not help us tune our hyperparameters for our deep network as hoped for. In the future, we might try scraping outside sources for more data, since the lack of training data likely hampered our model. 
 
 
 **References**
 
 
-    Bronshtein, A. (2020, March 24). _Train/test split and cross validation in Python_. Medium. Retrieved April 30, 2023, from [https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6](https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6) \
- \
+    Bronshtein, A. (2020, March 24). _Train/test split and cross validation in Python_. Medium. Retrieved April 30, 2023, from [https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6](https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6) 
+ 
 Chow, A., & Lifferth, W. (n.d.). _Classification with a Tabular Vector Borne Disease Dataset_. Kaggle. Retrieved April 30, 2023, from [https://www.kaggle.com/competitions/playground-series-s3e13](https://www.kaggle.com/competitions/playground-series-s3e13)
 
 
