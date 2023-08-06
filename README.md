@@ -174,7 +174,7 @@ We found that our most effective model was the 5-layer neural network, which was
 
     Bronshtein, A. (2020, March 24). _Train/test split and cross validation in Python_. Medium. Retrieved April 30, 2023, from [https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6](https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6) 
  
-Chow, A., & Lifferth, W. (n.d.). _Classification with a Tabular Vector Borne Disease Dataset_. Kaggle. Retrieved April 30, 2023, from [https://www.kaggle.com/competitions/playground-series-s3e13](https://www.kaggle.com/competitions/playground-series-s3e13)
+      Chow, A., & Lifferth, W. (n.d.). _Classification with a Tabular Vector Borne Disease Dataset_. Kaggle. Retrieved April 30, 2023, from [https://www.kaggle.com/competitions/playground-series-s3e13](https://www.kaggle.com/competitions/playground-series-s3e13)
 
 
     Gupta, A. (2021, June 1). _XGBoost versus Random Forest_. Medium. Retrieved April 30, 2023, from [https://medium.com/geekculture/xgboost-versus-random-forest-898e42870f30](https://medium.com/geekculture/xgboost-versus-random-forest-898e42870f30)
